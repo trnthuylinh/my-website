@@ -1,13 +1,102 @@
 
  body {
- background-color: #adc3d6;
- margin-left: 20%;
- margin-right: 20%;
- border: 3px solid white;
- padding: 10px 10px 10px 10px;
-  
+ background-image: linear-gradient(#67B1F2 3%,#D5E5F2 100%);
+ background-attachment: fixed;
+  background-repeat: no-repeat;
+ background-size: cover;
+ font-size: 20px;
+ line-height: 125%;
+ margin-left: 15%;
+ margin-right: 15%;
  }
-h1,p,h2{
+h1,h2,span.normal{
     font-family: 'Time news roman';
     color: #192841;
+    font-weight: bold;
+}
+h2{
+font-size: 160%;
+}
+h1{
+    font-size: 360%;
+}
+p{
+    color: #192841;
+}
+.clickable{
+    color:white;
+    background-color: #192841;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-left: 1px;
+    margin: 3px; 
+    border-radius: 3px;
+
+    
+}
+#Description{
+background-color: white;
+width: 400px;
+margin: 30px;
+padding: 10px;
+padding-right: 85px;
+padding-top: 3px;
+padding-bottom: 3px;
+border-radius: 30px;
+}
+
+#info{
+    background-color: white;
+    font-family: 'Times New Roman';
+    white-space: nowrap;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 85px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin: 30px;
+    border-radius: 30px;
+
+}
+
+#upload {
+    margin-left: 350px;
+    margin-right: 50px;
+    color: white; 
+    font-size: 80%;
+    background-color: #192841;
+    border-radius: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    padding: 10px;
+    }
+
+#click{
+    font-size: 80%;
+    color: white;
+    margin-right: -10px;
+    margin-left: 150px;
+    padding: 10px;
+    padding-left: 23px;
+    padding-right: 23px;
+    background-color: #192841;
+    border-radius: 10px;
+
+}
+
+#cover{
+ float: right;
+ margin-top: -255px;
+ margin-right: 10px;
+ overflow: hidden;
+ border-radius: 45px;
+}
+.bigger-font{
+font-size: 120%;
+}
+
+#credits{
+    color :#192841;
+    font-size: 60%;
+    text-align: center;
 }
